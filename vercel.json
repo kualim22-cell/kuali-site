@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    { "source": "/productos/:id", "destination": "/producto.html" }
+  ],
+  "headers": [
+    {
+      "source": "/productos.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, stale-while-revalidate=600" }
+      ]
+    },
+    {
+      "source": "/imgs/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}
