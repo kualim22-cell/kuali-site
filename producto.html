@@ -23,9 +23,7 @@ nav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:3px solid va
 .nl2.cta:hover{background:var(--azl)}
 .breadcrumb{max-width:1100px;margin:20px auto;padding:0 5vw;font-size:12px;color:var(--gr);display:flex;gap:6px;align-items:center}
 .breadcrumb a{color:var(--az);font-weight:600}
-.breadcrumb a:hover{color:var(--am)}
 .prod{max-width:1100px;margin:0 auto;padding:0 5vw 60px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
-/* Galería */
 .galeria{position:sticky;top:90px}
 .main-img{position:relative;border-radius:16px;overflow:hidden;background:var(--gc);aspect-ratio:1;margin-bottom:12px}
 .main-img img{width:100%;height:100%;object-fit:cover;transition:opacity .3s}
@@ -35,17 +33,12 @@ nav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:3px solid va
 .thumb{width:72px;height:72px;border-radius:8px;overflow:hidden;border:2px solid var(--bo);cursor:pointer;transition:border-color .2s;flex-shrink:0}
 .thumb.on{border-color:var(--az)}
 .thumb img{width:100%;height:100%;object-fit:cover}
-/* Info */
 .info .pcat{font-size:11px;font-weight:700;color:var(--gr);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
 .info h1{font-family:var(--sf);font-size:clamp(22px,3vw,36px);color:var(--ne);margin-bottom:8px;line-height:1.2}
 .info .sku{font-size:11px;color:var(--gr);margin-bottom:20px}
 .precio-box{background:var(--gc);border-radius:12px;padding:20px;margin-bottom:24px}
 .precio-contado{font-family:var(--sf);font-size:36px;font-weight:700;color:var(--az);line-height:1}
 .precio-contado small{font-family:var(--sn);font-size:12px;color:var(--gr);display:block;font-weight:400;margin-top:4px}
-.precio-credito{margin-top:12px;padding-top:12px;border-top:1px solid var(--bo);display:flex;align-items:center;gap:10px}
-.desde{font-family:var(--sf);font-size:24px;font-weight:700;color:var(--az)}
-.desde small{font-family:var(--sn);font-size:11px;color:var(--gr);font-weight:400}
-.badge-cred{background:var(--am);color:var(--az);font-size:10px;font-weight:800;padding:3px 10px;border-radius:20px}
 .btn-wa{display:flex;align-items:center;justify-content:center;gap:10px;background:#25D366;color:#fff;padding:16px 28px;border-radius:12px;font-weight:800;font-size:16px;margin-bottom:12px;transition:all .2s}
 .btn-wa:hover{background:#1db954;transform:translateY(-1px)}
 .btn-info{display:flex;align-items:center;justify-content:center;gap:10px;background:var(--az);color:#fff;padding:14px 28px;border-radius:12px;font-weight:700;font-size:14px;transition:all .2s}
@@ -58,17 +51,6 @@ nav{position:sticky;top:0;z-index:100;background:#fff;border-bottom:3px solid va
 .caract{list-style:none;display:flex;flex-direction:column;gap:8px}
 .caract li{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ne)}
 .caract li::before{content:'✓';color:var(--az);font-weight:800;flex-shrink:0}
-/* Calculadora */
-.calc{background:var(--az);color:#fff;border-radius:16px;padding:20px;margin-top:24px}
-.calc h4{font-family:var(--sf);font-size:18px;color:#fff;margin-bottom:16px}
-.calc-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;font-size:13px}
-.calc-row label{color:rgba(255,255,255,.7)}
-.calc-val{font-weight:700;color:var(--am);font-size:16px}
-.calc input[type=range]{width:100%;accent-color:var(--am);margin:8px 0}
-.calc-result{background:rgba(255,255,255,.1);border-radius:10px;padding:14px;text-align:center;margin-top:12px}
-.calc-result .monto{font-family:var(--sf);font-size:28px;font-weight:700;color:var(--am)}
-.calc-result small{font-size:11px;color:rgba(255,255,255,.6)}
-/* Relacionados */
 .rel{max-width:1100px;margin:0 auto;padding:0 5vw 60px}
 .rel h2{font-family:var(--sf);font-size:24px;color:var(--az);margin-bottom:20px}
 .rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
@@ -92,38 +74,29 @@ footer strong{color:#fff}
     <a class="nl2" href="/#cat">Catálogo</a>
     <a class="nl2" href="/#nos">Nosotros</a>
     <a class="nl2" href="/#suc">Sucursales</a>
-    <a class="nl2 cta" href="https://wa.me/525564367354?text=Hola%2C%20me%20interesa%20un%20producto" target="_blank">💬 WhatsApp</a>
+    <a class="nl2 cta" href="https://wa.me/525564367354" target="_blank">💬 WhatsApp</a>
   </div>
 </nav>
-
 <div class="breadcrumb">
   <a href="/">Inicio</a> › <a href="/#cat">Catálogo</a> › <span id="bc-nombre">Cargando...</span>
 </div>
-
 <div class="prod">
-  <!-- Galería -->
   <div class="galeria">
     <div class="main-img" id="mainImg"></div>
     <div class="thumbs" id="thumbs"></div>
   </div>
-  <!-- Info -->
   <div class="info" id="infoPanel">
     <div class="pcat" id="pcat"></div>
     <h1 id="pnombre"></h1>
     <div class="sku" id="psku"></div>
     <div class="precio-box">
-      <div class="precio-contado" id="pprecio"><small>Precio de contado</small></div>
-      <div class="precio-credito">
-        <div><div class="desde" id="psemana"></div><div style="font-size:11px;color:var(--gr);margin-top:2px">por semana a crédito</div></div>
-        
-      </div>
+      <div class="precio-contado" id="pprecio"></div>
     </div>
     <a class="btn-wa" id="btnWa" href="#" target="_blank">💬 Quiero este producto</a>
-    <a class="btn-info" href="https://wa.me/525564367354?text=Hola%2C%20quiero%20más%20información" target="_blank">📞 Pedir más información</a>
+    <a class="btn-info" href="https://wa.me/525564367354" target="_blank">📞 Pedir más información</a>
     <div class="garantias">
       <div class="gar">✅ Entrega a domicilio</div>
       <div class="gar">✅ Crédito semanal</div>
-      
     </div>
     <div class="desc-sec">
       <h3>Descripción</h3>
@@ -133,123 +106,92 @@ footer strong{color:#fff}
       <h3>Características</h3>
       <ul class="caract" id="pcaracts"></ul>
     </div>
-    
   </div>
 </div>
-
-<!-- Productos relacionados -->
 <div class="rel">
   <h2>También te puede interesar</h2>
   <div class="rel-grid" id="relGrid"></div>
 </div>
-
 <footer>
   <div class="fi">
-    <div><strong>Kuali Muebles</strong> — Tu hogar mejora, tú también.<br/><span style="font-size:11px">© 2026 · Estado de México · <span style="color:var(--am)">55 6436 7354</span></span></div>
+    <div><strong>Kuali Muebles</strong> — Cuando tu hogar mejora, tú también.<br/><span style="font-size:11px">© 2026 · Estado de México · <span style="color:var(--am)">55 6436 7354</span></span></div>
   </div>
 </footer>
 <a class="waf" href="https://wa.me/525564367354" target="_blank">💬</a>
-
 <script>
-// ============================================================
-// FUENTE DE DATOS — misma que index.html
-// Para conectar al ERP cambiar a la URL del API
-// ============================================================
 const DATA_URL = 'productos.json';
 const WA = '525564367354';
-
 const params = new URLSearchParams(location.search);
 const productoId = params.get('id');
-
 let imgActual = 0;
-let precioBase = 0;
 
 function fmtPrecio(n){return n.toLocaleString('es-MX')}
 
-/sem`;
-  document.getElementById('cTotal').textContent = `Total aproximado: $${fmtPrecio(Math.ceil(pago*sem))} en ${sem} semanas`;
-}
-
 function setImg(i){
-  imgActual = i;
+  imgActual=i;
   document.querySelectorAll('.main-img img').forEach((img,j)=>{img.className=j===i?'act':'ina'});
   document.querySelectorAll('.thumb').forEach((t,j)=>{t.className='thumb'+(j===i?' on':'')});
 }
 
 async function init(){
-  if(!productoId){ window.location.href='/'; return; }
+  if(!productoId){window.location.href='/';return;}
+  try{
+    const res = await fetch(DATA_URL);
+    if(!res.ok) throw new Error('Error cargando productos');
+    const data = await res.json();
+    const TODOS = data.productos;
+    const p = TODOS.find(x=>x.id===productoId);
+    if(!p){window.location.href='/';return;}
 
-  // ============================================================
-  // FUENTE DE DATOS — carga productos y busca el actual
-  // ============================================================
-  const res = await fetch(DATA_URL);
-  const data = await res.json();
-  const TODOS = data.productos;
-  const p = TODOS.find(x=>x.id===productoId);
-  if(!p){ window.location.href='/'; return; }
+    document.title = p.nombre+' — Kuali Muebles';
+    document.querySelector('meta[name="description"]').content = p.descripcion;
+    document.querySelector('meta[property="og:title"]').content = p.nombre;
+    document.querySelector('meta[property="og:description"]').content = p.descripcion;
+    if(p.imagenes[0]) document.querySelector('meta[property="og:image"]').content = p.imagenes[0];
 
-  precioBase = p.precio;
+    document.getElementById('bc-nombre').textContent = p.nombre;
 
-  // Meta tags dinámicos
-  document.title = `${p.nombre} — Kuali Muebles`;
-  document.querySelector('meta[name="description"]').content = p.descripcion;
-  document.querySelector('meta[property="og:title"]').content = p.nombre;
-  document.querySelector('meta[property="og:description"]').content = p.descripcion;
-  if(p.imagenes[0]) document.querySelector('meta[property="og:image"]').content = p.imagenes[0];
-
-  // Breadcrumb
-  document.getElementById('bc-nombre').textContent = p.nombre;
-
-  // Galería
-  const mainImg = document.getElementById('mainImg');
-  mainImg.innerHTML = p.imagenes.map((src,i)=>
-    `<img src="${src}" alt="${p.nombre}" class="${i===0?'act':'ina'}" onerror="this.src='imgs/placeholder.jpg'"/>`
-  ).join('');
-  const thumbs = document.getElementById('thumbs');
-  if(p.imagenes.length > 1){
-    thumbs.innerHTML = p.imagenes.map((src,i)=>
-      `<div class="thumb${i===0?' on':''}" onclick="setImg(${i})"><img src="${src}" alt="${p.nombre} ${i+1}" onerror="this.src='imgs/placeholder.jpg'"/></div>`
+    const mainImg = document.getElementById('mainImg');
+    mainImg.innerHTML = p.imagenes.map((src,i)=>
+      `<img src="${src}" alt="${p.nombre}" class="${i===0?'act':'ina'}" onerror="this.src='imgs/placeholder.jpg'"/>`
     ).join('');
-  }
+    const thumbs = document.getElementById('thumbs');
+    if(p.imagenes.length>1){
+      thumbs.innerHTML = p.imagenes.map((src,i)=>
+        `<div class="thumb${i===0?' on':''}" onclick="setImg(${i})"><img src="${src}" alt="${p.nombre}" onerror="this.src='imgs/placeholder.jpg'"/></div>`
+      ).join('');
+    }
 
-  // Info
-  document.getElementById('pcat').textContent = p.categoria;
-  document.getElementById('pnombre').textContent = p.nombre;
-  document.getElementById('psku').textContent = p.sku ? `Modelo: ${p.sku}` : '';
-  document.getElementById('pprecio').innerHTML = `$${fmtPrecio(p.precio)}<small>Precio de contado</small>`;
-  document.getElementById('psemana').textContent = `$${fmtPrecio(Math.ceil(p.precio/26))}/sem`;
+    document.getElementById('pcat').textContent = p.categoria;
+    document.getElementById('pnombre').textContent = p.nombre;
+    document.getElementById('psku').textContent = p.sku?'Modelo: '+p.sku:'';
+    document.getElementById('pprecio').innerHTML = '$'+fmtPrecio(p.precio)+'<small>Precio de contado</small>';
 
-  // WhatsApp
-  const wm = encodeURIComponent(`Hola, me interesa: ${p.nombre} — $${fmtPrecio(p.precio)}`);
-  document.getElementById('btnWa').href = `https://wa.me/${WA}?text=${wm}`;
+    const wm = encodeURIComponent('Hola, me interesa: '+p.nombre+' — $'+fmtPrecio(p.precio));
+    document.getElementById('btnWa').href = 'https://wa.me/'+WA+'?text='+wm;
 
-  // Descripción y características
-  document.getElementById('pdesc').textContent = p.descripcion;
-  if(p.caracteristicas && p.caracteristicas.length){
-    document.getElementById('pcaracts').innerHTML = p.caracteristicas.map(c=>`<li>${c}</li>`).join('');
-  } else {
-    document.getElementById('caracts-sec').style.display='none';
-  }
+    document.getElementById('pdesc').textContent = p.descripcion;
+    if(p.caracteristicas&&p.caracteristicas.length){
+      document.getElementById('pcaracts').innerHTML = p.caracteristicas.map(c=>`<li>${c}</li>`).join('');
+    } else {
+      document.getElementById('caracts-sec').style.display='none';
+    }
 
-  // Calculadora
-  
-
-  // Relacionados (misma categoría, excluye actual)
-  const rel = TODOS.filter(x=>x.categoria===p.categoria && x.id!==p.id && x.visible).slice(0,4);
-  if(rel.length){
-    document.getElementById('relGrid').innerHTML = rel.map(r=>`
-      <div class="rel-card" onclick="window.location.href='producto.html?id=${r.id}'">
-        <img src="${r.imagenes[0]||'imgs/placeholder.jpg'}" alt="${r.nombre}" onerror="this.src='imgs/placeholder.jpg'"/>
-        <div class="rel-info">
-          <div class="nm">${r.nombre}</div>
-          <div class="pr">$${fmtPrecio(r.precio)}</div>
-        </div>
-      </div>`).join('');
-  } else {
-    document.querySelector('.rel').style.display='none';
+    const rel = TODOS.filter(x=>x.categoria===p.categoria&&x.id!==p.id&&x.visible).slice(0,4);
+    if(rel.length){
+      document.getElementById('relGrid').innerHTML = rel.map(r=>`
+        <div class="rel-card" onclick="window.location.href='producto.html?id=${r.id}'">
+          <img src="${r.imagenes[0]||'imgs/placeholder.jpg'}" alt="${r.nombre}" onerror="this.src='imgs/placeholder.jpg'"/>
+          <div class="rel-info"><div class="nm">${r.nombre}</div><div class="pr">$${fmtPrecio(r.precio)}</div></div>
+        </div>`).join('');
+    } else {
+      document.querySelector('.rel').style.display='none';
+    }
+  } catch(err){
+    console.error('Error:', err);
+    document.getElementById('bc-nombre').textContent = 'Error cargando producto';
   }
 }
-
 init();
 </script>
 </body>
