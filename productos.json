@@ -1,36 +1,646 @@
 {
   "productos": [
-    {"id":"vitrina_barcelona","nombre":"Vitrina Barcelona","precio":9500,"categoria":"Vitrinas y Alacenas","descripcion":"Vitrina con puertas de vidrio y cajones en la base. Diseño elegante color negro, ideal para exhibir vajillas y decoración.","caracteristicas":["Puertas de vidrio","Cajones en la base","Color negro","Diseño elegante"],"imagenes":["imgs/vitrina_barcelona-1.jpg","imgs/vitrina_barcelona-2.jpg"],"destacado":false,"visible":true,"sku":"vitrina_barcelona"},
-    {"id":"vitrina_gema","nombre":"Vitrina Gema","precio":6500,"categoria":"Vitrinas y Alacenas","descripcion":"Vitrina modular de 3 cuerpos con puertas de vidrio y cajones metálicos. Elegante y funcional.","caracteristicas":["3 cuerpos modulares","Puertas de vidrio","Cajones metálicos"],"imagenes":["imgs/vitrina_gema-1.jpg","imgs/vitrina_gema-2.jpg"],"destacado":false,"visible":true,"sku":"vitrina_gema"},
-    {"id":"ropero_gran_vestidor","nombre":"Ropero Gran Vestidor","precio":14900,"categoria":"Roperos y Cómodas","descripcion":"Ropero de gran capacidad con entrepaños superiores, múltiples puertas, cajones y espejo de cuerpo completo.","caracteristicas":["Entrepaños superiores","Múltiples puertas","Cajones organizadores","Espejo de cuerpo completo"],"imagenes":["imgs/ropero_gran_vestidor-1.jpg","imgs/ropero_gran_vestidor-2.jpg"],"destacado":true,"visible":true,"sku":"ropero_gran_vestidor"},
-    {"id":"ropero_atavio","nombre":"Ropero Atavío","precio":10900,"categoria":"Roperos y Cómodas","descripcion":"Ropero con entrepaños superiores, espejo lateral de cuerpo completo y cajones interiores organizadores. Color negro.","caracteristicas":["Entrepaños superiores","Espejo lateral cuerpo completo","Cajones organizadores","Color negro"],"imagenes":["imgs/ropero_atavio-1.jpg","imgs/ropero_atavio-2.jpg"],"destacado":true,"visible":true,"sku":"ropero_atavio"},
-    {"id":"ropero_cofre","nombre":"Ropero Cofre 2 Puertas Maletero","precio":5900,"categoria":"Roperos y Cómodas","descripcion":"Ropero compacto con entrepaños superiores, espejo y cajones internos. Ideal para habitaciones pequeñas. Con ruedas.","caracteristicas":["Entrepaños superiores","Espejo","Cajones internos","Con ruedas","Compacto"],"imagenes":["imgs/ropero_cofre-1.jpg","imgs/ropero_cofre-2.jpg","imgs/ropero_cofre-3.jpg"],"destacado":false,"visible":true,"sku":"ropero_cofre"},
-    {"id":"ropero_persianas","nombre":"Ropero Persianas 1.50","precio":8900,"categoria":"Roperos y Cómodas","descripcion":"Ropero estilo clásico con puertas tipo persiana en madera, espejo lateral y cajones en la base. Acabado caoba.","caracteristicas":["Puertas tipo persiana","Espejo lateral","Cajones en la base","Acabado caoba"],"imagenes":["imgs/ropero_persianas-1.jpg","imgs/ropero_persianas-2.jpg"],"destacado":false,"visible":true,"sku":"ropero_persianas"},
-    {"id":"ropero_gala","nombre":"Ropero Gala 1.50 Puertas Abatibles","precio":8900,"categoria":"Roperos y Cómodas","descripcion":"Ropero con entrepaños superiores, puertas abatibles, espejo de cuerpo completo y cajones en la base. Con ruedas.","caracteristicas":["Entrepaños superiores","Puertas abatibles","Espejo cuerpo completo","Con ruedas"],"imagenes":["imgs/ropero_gala-1.jpg"],"destacado":false,"visible":true,"sku":"ropero_gala"},
-    {"id":"comoda_galeria","nombre":"Cómoda Galería","precio":4500,"categoria":"Roperos y Cómodas","descripcion":"Cómoda con una puerta y 5 cajones amplios con jaladeras de metal. Interior espacioso para organizar ropa. Con ruedas.","caracteristicas":["5 cajones amplios","Jaladeras de metal","Con ruedas","1 puerta"],"imagenes":["imgs/comoda_galeria-1.jpg","imgs/comoda_galeria-2.jpg"],"destacado":false,"visible":true,"sku":"comoda_galeria"},
-    {"id":"alacena_brianna","nombre":"Alacena Brianna","precio":6500,"categoria":"Vitrinas y Alacenas","descripcion":"Alacena de cocina con puertas de vidrio en la parte superior y puertas sólidas con cajones en la base. Color negro.","caracteristicas":["Puertas de vidrio superiores","Puertas sólidas en base","Cajones","Color negro"],"imagenes":["imgs/alacena_brianna-1.jpg","imgs/alacena_brianna-2.jpg"],"destacado":false,"visible":true,"sku":"alacena_brianna"},
-    {"id":"tocador_nayeli","nombre":"Tocador Nayeli Espejos","precio":7900,"categoria":"Tocadores","descripcion":"Tocador con espejo iluminado tipo Hollywood, cubierta de espejo y múltiples cajones organizadores.","caracteristicas":["Espejo iluminado Hollywood","Cubierta de espejo","Múltiples cajones"],"imagenes":["imgs/tocador_nayeli-1.jpg","imgs/tocador_nayeli-2.jpg"],"destacado":false,"visible":true,"sku":"tocador_nayeli"},
-    {"id":"tocador_jessica","nombre":"Tocador Jessica","precio":10900,"categoria":"Tocadores","descripcion":"Tocador amplio con espejo de marco doble iluminado LED, 9 cajones organizadores y amplia superficie de trabajo.","caracteristicas":["Espejo LED doble","9 cajones","Amplia superficie"],"imagenes":["imgs/tocador_jessica-1.jpg","imgs/tocador_jessica-2.jpg"],"destacado":true,"visible":true,"sku":"tocador_jessica"},
-    {"id":"tocador_susy","nombre":"Tocador Susy","precio":6900,"categoria":"Tocadores","descripcion":"Tocador moderno con espejo iluminado Hollywood, cajones laterales y detalles dorados. Diseño compacto y elegante.","caracteristicas":["Espejo iluminado Hollywood","Cajones laterales","Detalles dorados","Compacto"],"imagenes":["imgs/tocador_susy-1.jpg","imgs/tocador_susy-2.jpg"],"destacado":false,"visible":true,"sku":"tocador_susy"},
-    {"id":"base_individual","nombre":"Base Individual Moderna Tapiz","precio":1900,"categoria":"Bases y Camas","descripcion":"Base de cama individual tapizada en piel sintética color chocolate. Estructura firme, patas de madera.","caracteristicas":["Piel sintética","Color chocolate","Patas de madera","Tamaño individual"],"imagenes":["imgs/base_individual-1.jpg","imgs/base_individual-2.jpg"],"destacado":false,"visible":true,"sku":"base_individual"},
-    {"id":"sala_berlin","nombre":"Sala Berlín","precio":9500,"categoria":"Salas","descripcion":"Sala tipo L con chaise longue, tapicería capitonada color chocolate con costuras decorativas. Asientos amplios.","caracteristicas":["Tipo L con chaise longue","Tapicería capitonada","Color chocolate","Asientos amplios"],"imagenes":["imgs/sala_berlin-1.jpg"],"destacado":false,"visible":true,"sku":"sala_berlin"},
-    {"id":"sala_milan","nombre":"Sala Milán","precio":13900,"categoria":"Salas","descripcion":"Sala tipo L con chaise longue en tela bouclé color hueso. Diseño moderno y minimalista, cojines incluidos. Patas de madera.","caracteristicas":["Tipo L con chaise longue","Tela bouclé","Color hueso","Cojines incluidos","Patas de madera"],"imagenes":["imgs/sala_milan-1.jpg","imgs/sala_milan-2.jpg","imgs/sala_milan-3.jpg"],"destacado":true,"visible":true,"sku":"sala_milan"},
-    {"id":"sala_sarahi","nombre":"Sala Sarahí","precio":13900,"categoria":"Salas","descripcion":"Sala tipo L en tela microfibra color rojo con base en piel sintética negra. Patas cromadas, cojines incluidos.","caracteristicas":["Tipo L","Microfibra roja","Base piel sintética negra","Patas cromadas","Cojines incluidos"],"imagenes":["imgs/sala_sarahi-1.jpg","imgs/sala_sarahi-2.jpg"],"destacado":true,"visible":true,"sku":"sala_sarahi"},
-    {"id":"estufa_iem_30","nombre":"Estufa de Piso IEM 30\" Plata","precio":8900,"categoria":"Estufas","descripcion":"Estufa de piso 30 pulgadas color plata. Gas, cubierta porcelanizada, 6 quemadores estándar, 3 parrillas de alambrón, encendido manual.","caracteristicas":["30 pulgadas","6 quemadores","Cubierta porcelanizada","3 parrillas alambrón","Gas","Encendido manual"],"imagenes":["imgs/estufa_iem_30-1.jpg"],"destacado":false,"visible":true,"sku":"EI3520BAPS1"},
-    {"id":"estufa_iem_20","nombre":"Estufa de Piso IEM 20\" Negro","precio":5900,"categoria":"Estufas","descripcion":"Estufa de piso 20 pulgadas color negro. Gas, cubierta porcelanizada, 4 quemadores estándar, 2 parrillas de alambrón, encendido manual.","caracteristicas":["20 pulgadas","4 quemadores","Cubierta porcelanizada","2 parrillas alambrón","Gas","Encendido manual"],"imagenes":["imgs/estufa_iem_20-1.jpg"],"destacado":false,"visible":true,"sku":"EI5020BAPN1"},
-    {"id":"estufa_mabe_20","nombre":"Estufa de Piso Mabe 20\" Negro","precio":6199,"categoria":"Estufas","descripcion":"Estufa de piso Mabe 20 pulgadas color negro. Gas, cubierta porcelanizada, 4 quemadores estándar, encendido manual.","caracteristicas":["20 pulgadas","4 quemadores","Cubierta porcelanizada","Gas","Encendido manual","Termocontrol 5 posiciones"],"imagenes":["imgs/estufa_mabe_20-1.jpg"],"destacado":false,"visible":true,"sku":"EM5022BAPN1"},
-    {"id":"estufa_mabe_30","nombre":"Estufa de Piso Mabe 30\" Acero","precio":9899,"categoria":"Estufas","descripcion":"Estufa de piso Mabe 30 pulgadas acero inoxidable. 6 quemadores, parrillas de fundición, encendido electrónico.","caracteristicas":["30 pulgadas","6 quemadores","Acero inoxidable","Parrillas de fundición","Encendido electrónico"],"imagenes":["imgs/estufa_mabe_30-1.jpg"],"destacado":true,"visible":true,"sku":"EM7654BFIS3"},
-    {"id":"estufa_mabe_empotre","nombre":"Estufa de Empotre Mabe 30\" Plata","precio":13900,"categoria":"Estufas","descripcion":"Estufa de empotre Mabe 80 cm acero inoxidable. 6 quemadores con jumbo, capelo de cristal templado, parrillas de fundición.","caracteristicas":["80 cm","6 quemadores","2 quemadores jumbo","Capelo cristal templado","Parrillas de fundición"],"imagenes":["imgs/estufa_mabe_empotre-1.jpg"],"destacado":false,"visible":true,"sku":"MA0C80400CI0"},
-    {"id":"parrilla_iem_51","nombre":"Parrilla de Gas IEM 51 cm Blanco","precio":1950,"categoria":"Estufas","descripcion":"Parrilla de gas IEM 51 cm color blanco. 4 quemadores troquelados, 2 parrillas de alambrón, encendido manual con cerillo.","caracteristicas":["51 cm","4 quemadores","Acero inox","Encendido manual","Color blanco"],"imagenes":["imgs/parrilla_iem_51-1.jpg"],"destacado":false,"visible":true,"sku":"PSI51BB0"},
-    {"id":"lavadora_mabe_21kg","nombre":"Lavadora Mabe 21 kg Blanco","precio":13900,"categoria":"Lavadoras","descripcion":"Lavadora automática carga superior Mabe 21 kg. 11 programas, 6 niveles de temperatura, tina de acero inoxidable.","caracteristicas":["21 kg","11 programas","6 temperaturas","Tina acero inox","Carga superior"],"imagenes":["imgs/lavadora_mabe_21kg-1.jpg"],"destacado":true,"visible":true,"sku":"LMA71214VBAB0"},
-    {"id":"lavadora_mabe_24kg","nombre":"Lavadora Mabe 24 kg Blanco","precio":14499,"categoria":"Lavadoras","descripcion":"Lavadora automática carga superior Mabe 24 kg. 11 ciclos, tapa de vidrio, agitador, tina de acero inoxidable.","caracteristicas":["24 kg","11 ciclos","Tapa de vidrio","Agitador","Tina acero inox"],"imagenes":["imgs/lavadora_mabe_24kg-1.jpg"],"destacado":false,"visible":true,"sku":"LMA74215WBAB1"},
-    {"id":"lavadora_mabe_16kg","nombre":"Lavadora Mabe 16 kg Blanco","precio":11900,"categoria":"Lavadoras","descripcion":"Lavadora automática carga superior Mabe 16 kg. 7 programas, agitador, tina de acero inoxidable.","caracteristicas":["16 kg","7 programas","Agitador","Tina acero inox","Carga superior"],"imagenes":["imgs/lavadora_mabe_16kg-1.jpg"],"destacado":false,"visible":true,"sku":"LMA76112CBAB0"},
-    {"id":"lavadora_mabe_18kg","nombre":"Lavadora Mabe 18 kg Blanco","precio":12400,"categoria":"Lavadoras","descripcion":"Lavadora automática carga superior Mabe 18 kg. 3 niveles de agua, 7 programas, agitador, tina de acero inoxidable.","caracteristicas":["18 kg","7 programas","3 niveles de agua","Agitador","Tina acero inox"],"imagenes":["imgs/lavadora_mabe_18kg-1.jpg"],"destacado":false,"visible":true,"sku":"LMA78112CBAB0"},
-    {"id":"lavadora_mabe_19kg","nombre":"Lavadora Mabe 19 kg Blanco","precio":12900,"categoria":"Lavadoras","descripcion":"Lavadora automática carga superior Mabe 19 kg. 11 ciclos, 6 temperaturas, tapa de vidrio, tina de acero inoxidable.","caracteristicas":["19 kg","11 ciclos","6 temperaturas","Tapa de vidrio","Tina acero inox"],"imagenes":["imgs/lavadora_mabe_19kg-1.jpg"],"destacado":false,"visible":true,"sku":"LMA79114VBAK0"},
-    {"id":"lavadora_mabe_redonda","nombre":"Lavadora Redonda Mabe 16 kg","precio":5490,"categoria":"Lavadoras","descripcion":"Lavadora redonda Mabe 16 kg. Nivel de agua manual, agitador, tina porcelanizada, desagüe por gravedad.","caracteristicas":["16 kg","Redonda","Agitador","Tina porcelanizada","Desagüe por gravedad"],"imagenes":["imgs/lavadora_mabe_redonda-1.jpg"],"destacado":false,"visible":true,"sku":"LRM16A"},
-    {"id":"refrigerador_mabe_8p","nombre":"Refrigerador Mabe 8 pies Plata","precio":7900,"categoria":"Refrigeradores","descripcion":"Refrigerador Mabe 8 pies 1 puerta color plata. Despachador de agua 2L, congelador superior, parrillas de cristal templado.","caracteristicas":["8 pies","1 puerta","Despachador de agua 2L","Congelador superior","Cristal templado"],"imagenes":["imgs/refrigerador_mabe_8p-1.jpg"],"destacado":false,"visible":true,"sku":"RMA210PYMRM0"},
-    {"id":"refrigerador_mabe_8p_negro","nombre":"Refrigerador Mabe 8 pies Negro","precio":7900,"categoria":"Refrigeradores","descripcion":"Refrigerador Mabe 8 pies 1 puerta color negro. Despachador de agua 2L, congelador superior, parrillas de cristal templado.","caracteristicas":["8 pies","1 puerta","Despachador de agua 2L","Congelador superior","Color negro"],"imagenes":["imgs/refrigerador_mabe_8p_negro-1.jpg"],"destacado":false,"visible":true,"sku":"RMA210PYMRP0"},
-    {"id":"refrigerador_mabe_10p","nombre":"Refrigerador Mabe 10 pies Inox","precio":11900,"categoria":"Refrigeradores","descripcion":"Refrigerador Mabe 10 pies 2 puertas inox mate. Despachador de agua 2L, jaladera full grip, cajón legumbrero con tapa.","caracteristicas":["10 pies","2 puertas","Inox mate","Despachador 2L","Cajón legumbrero"],"imagenes":["imgs/refrigerador_mabe_10p-1.jpg"],"destacado":true,"visible":true,"sku":"RMA250FYMRM0"},
-    {"id":"refrigerador_mabe_10p_pocket","nombre":"Refrigerador Mabe 10 pies Inox Pocket","precio":10900,"categoria":"Refrigeradores","descripcion":"Refrigerador Mabe 10 pies 2 puertas inox mate. Jaladera tipo pocket, cajón legumbrero cristal, hieleras, hueveras, automático.","caracteristicas":["10 pies","2 puertas","Jaladera pocket","Hieleras y hueveras","Automático"],"imagenes":["imgs/refrigerador_mabe_10p_pocket-1.jpg"],"destacado":false,"visible":true,"sku":"RMA250PVMRM0"}
+    {
+      "id": "vitrina_barcelona",
+      "nombre": "Vitrina Barcelona",
+      "precio": 9500,
+      "categoria": "Vitrinas y Alacenas",
+      "descripcion": "Vitrina con puertas de vidrio y cajones en la base. Diseño elegante color negro, ideal para exhibir vajillas y decoración.",
+      "caracteristicas": [
+        "Puertas de vidrio",
+        "Cajones en la base",
+        "Color negro",
+        "Diseño elegante"
+      ],
+      "imagenes": [
+        "imgs/vitrina_barcelona-1.jpg",
+        "imgs/vitrina_barcelona-2.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "vitrina_barcelona"
+    },
+    {
+      "id": "vitrina_gema",
+      "nombre": "Vitrina Gema",
+      "precio": 6500,
+      "categoria": "Vitrinas y Alacenas",
+      "descripcion": "Vitrina modular de 3 cuerpos con puertas de vidrio y cajones metálicos. Elegante y funcional.",
+      "caracteristicas": [
+        "3 cuerpos modulares",
+        "Puertas de vidrio",
+        "Cajones metálicos"
+      ],
+      "imagenes": [
+        "imgs/vitrina_gema-1.jpg",
+        "imgs/vitrina_gema-2.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "vitrina_gema"
+    },
+    {
+      "id": "ropero_gran_vestidor",
+      "nombre": "Ropero Gran Vestidor",
+      "precio": 14900,
+      "categoria": "Roperos y Cómodas",
+      "descripcion": "Ropero de gran capacidad con entrepaños superiores, múltiples puertas, cajones y espejo de cuerpo completo.",
+      "caracteristicas": [
+        "Entrepaños superiores",
+        "Múltiples puertas",
+        "Cajones organizadores",
+        "Espejo de cuerpo completo"
+      ],
+      "imagenes": [
+        "imgs/ropero_gran_vestidor-1.jpg",
+        "imgs/ropero_gran_vestidor-2.jpg"
+      ],
+      "destacado": true,
+      "visible": true,
+      "sku": "ropero_gran_vestidor"
+    },
+    {
+      "id": "ropero_atavio",
+      "nombre": "Ropero Atavío",
+      "precio": 10900,
+      "categoria": "Roperos y Cómodas",
+      "descripcion": "Ropero con entrepaños superiores, espejo lateral de cuerpo completo y cajones interiores organizadores. Color negro.",
+      "caracteristicas": [
+        "Entrepaños superiores",
+        "Espejo lateral cuerpo completo",
+        "Cajones organizadores",
+        "Color negro"
+      ],
+      "imagenes": [
+        "imgs/ropero_atavio-1.jpg",
+        "imgs/ropero_atavio-2.jpg"
+      ],
+      "destacado": true,
+      "visible": true,
+      "sku": "ropero_atavio"
+    },
+    {
+      "id": "ropero_cofre",
+      "nombre": "Ropero Cofre 2 Puertas Maletero",
+      "precio": 5900,
+      "categoria": "Roperos y Cómodas",
+      "descripcion": "Ropero compacto con entrepaños superiores, espejo y cajones internos. Ideal para habitaciones pequeñas. Con ruedas.",
+      "caracteristicas": [
+        "Entrepaños superiores",
+        "Espejo",
+        "Cajones internos",
+        "Con ruedas",
+        "Compacto"
+      ],
+      "imagenes": [
+        "imgs/ropero_cofre-1.jpg",
+        "imgs/ropero_cofre-2.jpg",
+        "imgs/ropero_cofre-3.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "ropero_cofre"
+    },
+    {
+      "id": "ropero_persianas",
+      "nombre": "Ropero Persianas 1.50",
+      "precio": 8900,
+      "categoria": "Roperos y Cómodas",
+      "descripcion": "Ropero estilo clásico con puertas tipo persiana en madera, espejo lateral y cajones en la base. Acabado caoba.",
+      "caracteristicas": [
+        "Puertas tipo persiana",
+        "Espejo lateral",
+        "Cajones en la base",
+        "Acabado caoba"
+      ],
+      "imagenes": [
+        "imgs/ropero_persianas-1.jpg",
+        "imgs/ropero_persianas-2.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "ropero_persianas"
+    },
+    {
+      "id": "ropero_gala",
+      "nombre": "Ropero Gala 1.50 Puertas Abatibles",
+      "precio": 8900,
+      "categoria": "Roperos y Cómodas",
+      "descripcion": "Ropero con entrepaños superiores, puertas abatibles, espejo de cuerpo completo y cajones en la base. Con ruedas.",
+      "caracteristicas": [
+        "Entrepaños superiores",
+        "Puertas abatibles",
+        "Espejo cuerpo completo",
+        "Con ruedas"
+      ],
+      "imagenes": [
+        "imgs/ropero_gala-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "ropero_gala"
+    },
+    {
+      "id": "comoda_galeria",
+      "nombre": "Cómoda Galería",
+      "precio": 4500,
+      "categoria": "Roperos y Cómodas",
+      "descripcion": "Cómoda con una puerta y 5 cajones amplios con jaladeras de metal. Interior espacioso para organizar ropa. Con ruedas.",
+      "caracteristicas": [
+        "5 cajones amplios",
+        "Jaladeras de metal",
+        "Con ruedas",
+        "1 puerta"
+      ],
+      "imagenes": [
+        "imgs/comoda_galeria-1.jpg",
+        "imgs/comoda_galeria-2.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "comoda_galeria"
+    },
+    {
+      "id": "alacena_brianna",
+      "nombre": "Alacena Brianna",
+      "precio": 6500,
+      "categoria": "Vitrinas y Alacenas",
+      "descripcion": "Alacena de cocina con puertas de vidrio en la parte superior y puertas sólidas con cajones en la base. Color negro.",
+      "caracteristicas": [
+        "Puertas de vidrio superiores",
+        "Puertas sólidas en base",
+        "Cajones",
+        "Color negro"
+      ],
+      "imagenes": [
+        "imgs/alacena_brianna-1.jpg",
+        "imgs/alacena_brianna-2.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "alacena_brianna"
+    },
+    {
+      "id": "tocador_nayeli",
+      "nombre": "Tocador Nayeli Espejos",
+      "precio": 7900,
+      "categoria": "Tocadores",
+      "descripcion": "Tocador con espejo iluminado tipo Hollywood, cubierta de espejo y múltiples cajones organizadores.",
+      "caracteristicas": [
+        "Espejo iluminado Hollywood",
+        "Cubierta de espejo",
+        "Múltiples cajones"
+      ],
+      "imagenes": [
+        "imgs/tocador_nayeli-2.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "tocador_nayeli"
+    },
+    {
+      "id": "tocador_jessica",
+      "nombre": "Tocador Jessica",
+      "precio": 10900,
+      "categoria": "Tocadores",
+      "descripcion": "Tocador amplio con espejo de marco doble iluminado LED, 9 cajones organizadores y amplia superficie de trabajo.",
+      "caracteristicas": [
+        "Espejo LED doble",
+        "9 cajones",
+        "Amplia superficie"
+      ],
+      "imagenes": [
+        "imgs/tocador_jessica-1.jpg",
+        "imgs/tocador_jessica-2.jpg"
+      ],
+      "destacado": true,
+      "visible": true,
+      "sku": "tocador_jessica"
+    },
+    {
+      "id": "tocador_susy",
+      "nombre": "Tocador Susy",
+      "precio": 6900,
+      "categoria": "Tocadores",
+      "descripcion": "Tocador moderno con espejo iluminado Hollywood, cajones laterales y detalles dorados. Diseño compacto y elegante.",
+      "caracteristicas": [
+        "Espejo iluminado Hollywood",
+        "Cajones laterales",
+        "Detalles dorados",
+        "Compacto"
+      ],
+      "imagenes": [
+        "imgs/tocador_susy-1.jpg",
+        "imgs/tocador_susy-2.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "tocador_susy"
+    },
+    {
+      "id": "base_individual",
+      "nombre": "Base Individual Moderna Tapiz",
+      "precio": 1900,
+      "categoria": "Bases y Camas",
+      "descripcion": "Base de cama individual tapizada en piel sintética color chocolate. Estructura firme, patas de madera.",
+      "caracteristicas": [
+        "Piel sintética",
+        "Color chocolate",
+        "Patas de madera",
+        "Tamaño individual"
+      ],
+      "imagenes": [
+        "imgs/base_individual-1.jpg",
+        "imgs/base_individual-2.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "base_individual"
+    },
+    {
+      "id": "sala_berlin",
+      "nombre": "Sala Berlín",
+      "precio": 9500,
+      "categoria": "Salas",
+      "descripcion": "Sala tipo L con chaise longue, tapicería capitonada color chocolate con costuras decorativas. Asientos amplios.",
+      "caracteristicas": [
+        "Tipo L con chaise longue",
+        "Tapicería capitonada",
+        "Color chocolate",
+        "Asientos amplios"
+      ],
+      "imagenes": [
+        "imgs/sala_berlin-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "sala_berlin"
+    },
+    {
+      "id": "sala_milan",
+      "nombre": "Sala Milán",
+      "precio": 13900,
+      "categoria": "Salas",
+      "descripcion": "Sala tipo L con chaise longue en tela bouclé color hueso. Diseño moderno y minimalista, cojines incluidos. Patas de madera.",
+      "caracteristicas": [
+        "Tipo L con chaise longue",
+        "Tela bouclé",
+        "Color hueso",
+        "Cojines incluidos",
+        "Patas de madera"
+      ],
+      "imagenes": [
+        "imgs/sala_milan-1.jpg",
+        "imgs/sala_milan-2.jpg",
+        "imgs/sala_milan-3.jpg"
+      ],
+      "destacado": true,
+      "visible": true,
+      "sku": "sala_milan"
+    },
+    {
+      "id": "sala_sarahi",
+      "nombre": "Sala Sarahí",
+      "precio": 13900,
+      "categoria": "Salas",
+      "descripcion": "Sala tipo L en tela microfibra color rojo con base en piel sintética negra. Patas cromadas, cojines incluidos.",
+      "caracteristicas": [
+        "Tipo L",
+        "Microfibra roja",
+        "Base piel sintética negra",
+        "Patas cromadas",
+        "Cojines incluidos"
+      ],
+      "imagenes": [
+        "imgs/sala_sarahi-1.jpg",
+        "imgs/sala_sarahi-2.jpg"
+      ],
+      "destacado": true,
+      "visible": true,
+      "sku": "sala_sarahi"
+    },
+    {
+      "id": "estufa_iem_30",
+      "nombre": "Estufa de Piso IEM 30\" Plata",
+      "precio": 8900,
+      "categoria": "Estufas",
+      "descripcion": "Estufa de piso 30 pulgadas color plata. Gas, cubierta porcelanizada, 6 quemadores estándar, 3 parrillas de alambrón, encendido manual.",
+      "caracteristicas": [
+        "30 pulgadas",
+        "6 quemadores",
+        "Cubierta porcelanizada",
+        "3 parrillas alambrón",
+        "Gas",
+        "Encendido manual"
+      ],
+      "imagenes": [
+        "imgs/estufa_iem_30-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "EI3520BAPS1"
+    },
+    {
+      "id": "estufa_iem_20",
+      "nombre": "Estufa de Piso IEM 20\" Negro",
+      "precio": 5900,
+      "categoria": "Estufas",
+      "descripcion": "Estufa de piso 20 pulgadas color negro. Gas, cubierta porcelanizada, 4 quemadores estándar, 2 parrillas de alambrón, encendido manual.",
+      "caracteristicas": [
+        "20 pulgadas",
+        "4 quemadores",
+        "Cubierta porcelanizada",
+        "2 parrillas alambrón",
+        "Gas",
+        "Encendido manual"
+      ],
+      "imagenes": [
+        "imgs/estufa_iem_20-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "EI5020BAPN1"
+    },
+    {
+      "id": "estufa_mabe_20",
+      "nombre": "Estufa de Piso Mabe 20\" Negro",
+      "precio": 6199,
+      "categoria": "Estufas",
+      "descripcion": "Estufa de piso Mabe 20 pulgadas color negro. Gas, cubierta porcelanizada, 4 quemadores estándar, encendido manual.",
+      "caracteristicas": [
+        "20 pulgadas",
+        "4 quemadores",
+        "Cubierta porcelanizada",
+        "Gas",
+        "Encendido manual",
+        "Termocontrol 5 posiciones"
+      ],
+      "imagenes": [
+        "imgs/estufa_mabe_20-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "EM5022BAPN1"
+    },
+    {
+      "id": "estufa_mabe_30",
+      "nombre": "Estufa de Piso Mabe 30\" Acero",
+      "precio": 9899,
+      "categoria": "Estufas",
+      "descripcion": "Estufa de piso Mabe 30 pulgadas acero inoxidable. 6 quemadores, parrillas de fundición, encendido electrónico.",
+      "caracteristicas": [
+        "30 pulgadas",
+        "6 quemadores",
+        "Acero inoxidable",
+        "Parrillas de fundición",
+        "Encendido electrónico"
+      ],
+      "imagenes": [
+        "imgs/estufa_mabe_30-1.jpg"
+      ],
+      "destacado": true,
+      "visible": true,
+      "sku": "EM7654BFIS3"
+    },
+    {
+      "id": "estufa_mabe_empotre",
+      "nombre": "Estufa de Empotre Mabe 30\" Plata",
+      "precio": 13900,
+      "categoria": "Estufas",
+      "descripcion": "Estufa de empotre Mabe 80 cm acero inoxidable. 6 quemadores con jumbo, capelo de cristal templado, parrillas de fundición.",
+      "caracteristicas": [
+        "80 cm",
+        "6 quemadores",
+        "2 quemadores jumbo",
+        "Capelo cristal templado",
+        "Parrillas de fundición"
+      ],
+      "imagenes": [
+        "imgs/estufa_mabe_empotre-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "MA0C80400CI0"
+    },
+    {
+      "id": "parrilla_iem_51",
+      "nombre": "Parrilla de Gas IEM 51 cm Blanco",
+      "precio": 1950,
+      "categoria": "Estufas",
+      "descripcion": "Parrilla de gas IEM 51 cm color blanco. 4 quemadores troquelados, 2 parrillas de alambrón, encendido manual con cerillo.",
+      "caracteristicas": [
+        "51 cm",
+        "4 quemadores",
+        "Acero inox",
+        "Encendido manual",
+        "Color blanco"
+      ],
+      "imagenes": [
+        "imgs/parrilla_iem_51-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "PSI51BB0"
+    },
+    {
+      "id": "lavadora_mabe_21kg",
+      "nombre": "Lavadora Mabe 21 kg Blanco",
+      "precio": 13900,
+      "categoria": "Lavadoras",
+      "descripcion": "Lavadora automática carga superior Mabe 21 kg. 11 programas, 6 niveles de temperatura, tina de acero inoxidable.",
+      "caracteristicas": [
+        "21 kg",
+        "11 programas",
+        "6 temperaturas",
+        "Tina acero inox",
+        "Carga superior"
+      ],
+      "imagenes": [
+        "imgs/lavadora_mabe_21kg-1.jpg"
+      ],
+      "destacado": true,
+      "visible": true,
+      "sku": "LMA71214VBAB0"
+    },
+    {
+      "id": "lavadora_mabe_24kg",
+      "nombre": "Lavadora Mabe 24 kg Blanco",
+      "precio": 14499,
+      "categoria": "Lavadoras",
+      "descripcion": "Lavadora automática carga superior Mabe 24 kg. 11 ciclos, tapa de vidrio, agitador, tina de acero inoxidable.",
+      "caracteristicas": [
+        "24 kg",
+        "11 ciclos",
+        "Tapa de vidrio",
+        "Agitador",
+        "Tina acero inox"
+      ],
+      "imagenes": [
+        "imgs/lavadora_mabe_24kg-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "LMA74215WBAB1"
+    },
+    {
+      "id": "lavadora_mabe_16kg",
+      "nombre": "Lavadora Mabe 16 kg Blanco",
+      "precio": 11900,
+      "categoria": "Lavadoras",
+      "descripcion": "Lavadora automática carga superior Mabe 16 kg. 7 programas, agitador, tina de acero inoxidable.",
+      "caracteristicas": [
+        "16 kg",
+        "7 programas",
+        "Agitador",
+        "Tina acero inox",
+        "Carga superior"
+      ],
+      "imagenes": [
+        "imgs/lavadora_mabe_16kg-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "LMA76112CBAB0"
+    },
+    {
+      "id": "lavadora_mabe_18kg",
+      "nombre": "Lavadora Mabe 18 kg Blanco",
+      "precio": 12400,
+      "categoria": "Lavadoras",
+      "descripcion": "Lavadora automática carga superior Mabe 18 kg. 3 niveles de agua, 7 programas, agitador, tina de acero inoxidable.",
+      "caracteristicas": [
+        "18 kg",
+        "7 programas",
+        "3 niveles de agua",
+        "Agitador",
+        "Tina acero inox"
+      ],
+      "imagenes": [
+        "imgs/lavadora_mabe_18kg-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "LMA78112CBAB0"
+    },
+    {
+      "id": "lavadora_mabe_19kg",
+      "nombre": "Lavadora Mabe 19 kg Blanco",
+      "precio": 12900,
+      "categoria": "Lavadoras",
+      "descripcion": "Lavadora automática carga superior Mabe 19 kg. 11 ciclos, 6 temperaturas, tapa de vidrio, tina de acero inoxidable.",
+      "caracteristicas": [
+        "19 kg",
+        "11 ciclos",
+        "6 temperaturas",
+        "Tapa de vidrio",
+        "Tina acero inox"
+      ],
+      "imagenes": [
+        "imgs/lavadora_mabe_19kg-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "LMA79114VBAK0"
+    },
+    {
+      "id": "lavadora_mabe_redonda",
+      "nombre": "Lavadora Redonda Mabe 16 kg",
+      "precio": 5490,
+      "categoria": "Lavadoras",
+      "descripcion": "Lavadora redonda Mabe 16 kg. Nivel de agua manual, agitador, tina porcelanizada, desagüe por gravedad.",
+      "caracteristicas": [
+        "16 kg",
+        "Redonda",
+        "Agitador",
+        "Tina porcelanizada",
+        "Desagüe por gravedad"
+      ],
+      "imagenes": [
+        "imgs/lavadora_mabe_redonda-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "LRM16A"
+    },
+    {
+      "id": "refrigerador_mabe_8p",
+      "nombre": "Refrigerador Mabe 8 pies Plata",
+      "precio": 7900,
+      "categoria": "Refrigeradores",
+      "descripcion": "Refrigerador Mabe 8 pies 1 puerta color plata. Despachador de agua 2L, congelador superior, parrillas de cristal templado.",
+      "caracteristicas": [
+        "8 pies",
+        "1 puerta",
+        "Despachador de agua 2L",
+        "Congelador superior",
+        "Cristal templado"
+      ],
+      "imagenes": [
+        "imgs/refrigerador_mabe_8p-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "RMA210PYMRM0"
+    },
+    {
+      "id": "refrigerador_mabe_8p_negro",
+      "nombre": "Refrigerador Mabe 8 pies Negro",
+      "precio": 7900,
+      "categoria": "Refrigeradores",
+      "descripcion": "Refrigerador Mabe 8 pies 1 puerta color negro. Despachador de agua 2L, congelador superior, parrillas de cristal templado.",
+      "caracteristicas": [
+        "8 pies",
+        "1 puerta",
+        "Despachador de agua 2L",
+        "Congelador superior",
+        "Color negro"
+      ],
+      "imagenes": [
+        "imgs/refrigerador_mabe_8p_negro-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "RMA210PYMRP0"
+    },
+    {
+      "id": "refrigerador_mabe_10p",
+      "nombre": "Refrigerador Mabe 10 pies Inox",
+      "precio": 11900,
+      "categoria": "Refrigeradores",
+      "descripcion": "Refrigerador Mabe 10 pies 2 puertas inox mate. Despachador de agua 2L, jaladera full grip, cajón legumbrero con tapa.",
+      "caracteristicas": [
+        "10 pies",
+        "2 puertas",
+        "Inox mate",
+        "Despachador 2L",
+        "Cajón legumbrero"
+      ],
+      "imagenes": [
+        "imgs/refrigerador_mabe_10p-1.jpg"
+      ],
+      "destacado": true,
+      "visible": true,
+      "sku": "RMA250FYMRM0"
+    },
+    {
+      "id": "refrigerador_mabe_10p_pocket",
+      "nombre": "Refrigerador Mabe 10 pies Inox Pocket",
+      "precio": 10900,
+      "categoria": "Refrigeradores",
+      "descripcion": "Refrigerador Mabe 10 pies 2 puertas inox mate. Jaladera tipo pocket, cajón legumbrero cristal, hieleras, hueveras, automático.",
+      "caracteristicas": [
+        "10 pies",
+        "2 puertas",
+        "Jaladera pocket",
+        "Hieleras y hueveras",
+        "Automático"
+      ],
+      "imagenes": [
+        "imgs/refrigerador_mabe_10p_pocket-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "RMA250PVMRM0"
+    }
   ]
 }
