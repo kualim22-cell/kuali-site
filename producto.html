@@ -115,7 +115,7 @@ footer strong{color:#fff}
       <div class="precio-contado" id="pprecio"><small>Precio de contado</small></div>
       <div class="precio-credito">
         <div><div class="desde" id="psemana"></div><div style="font-size:11px;color:var(--gr);margin-top:2px">por semana a crédito</div></div>
-        <span class="badge-cred">Sin buró</span>
+        
       </div>
     </div>
     <a class="btn-wa" id="btnWa" href="#" target="_blank">💬 Quiero este producto</a>
@@ -123,7 +123,7 @@ footer strong{color:#fff}
     <div class="garantias">
       <div class="gar">✅ Entrega a domicilio</div>
       <div class="gar">✅ Crédito semanal</div>
-      <div class="gar">✅ Sin buró</div>
+      
     </div>
     <div class="desc-sec">
       <h3>Descripción</h3>
@@ -133,17 +133,7 @@ footer strong{color:#fff}
       <h3>Características</h3>
       <ul class="caract" id="pcaracts"></ul>
     </div>
-    <!-- Calculadora de crédito -->
-    <div class="calc" id="calcBox">
-      <h4>💰 Calculadora de crédito</h4>
-      <div class="calc-row"><label>Semanas</label><span class="calc-val" id="cSem">26</span></div>
-      <input type="range" min="4" max="52" value="26" step="4" id="cRange" oninput="calcular()"/>
-      <div class="calc-row" style="margin-top:4px"><span style="font-size:11px;color:rgba(255,255,255,.5)">4 sem</span><span style="font-size:11px;color:rgba(255,255,255,.5)">52 sem</span></div>
-      <div class="calc-result">
-        <div class="monto" id="cMonto"></div>
-        <small id="cTotal"></small>
-      </div>
-    </div>
+    
   </div>
 </div>
 
@@ -176,13 +166,7 @@ let precioBase = 0;
 
 function fmtPrecio(n){return n.toLocaleString('es-MX')}
 
-function calcular(){
-  const sem = parseInt(document.getElementById('cRange').value);
-  const APR = 1.20; // 120% anual — igual que en el ERP
-  const tasaSemanal = APR / 52;
-  const pago = precioBase * (tasaSemanal * Math.pow(1+tasaSemanal,sem)) / (Math.pow(1+tasaSemanal,sem)-1);
-  document.getElementById('cSem').textContent = sem;
-  document.getElementById('cMonto').textContent = `$${fmtPrecio(Math.ceil(pago))}/sem`;
+/sem`;
   document.getElementById('cTotal').textContent = `Total aproximado: $${fmtPrecio(Math.ceil(pago*sem))} en ${sem} semanas`;
 }
 
@@ -248,7 +232,7 @@ async function init(){
   }
 
   // Calculadora
-  calcular();
+  
 
   // Relacionados (misma categoría, excluye actual)
   const rel = TODOS.filter(x=>x.categoria===p.categoria && x.id!==p.id && x.visible).slice(0,4);
