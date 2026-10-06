@@ -641,6 +641,205 @@
       "destacado": false,
       "visible": true,
       "sku": "RMA250PVMRM0"
+    },
+    {
+      "id": "sillon_amapola",
+      "nombre": "Sillón Amapola",
+      "precio": 2600,
+      "categoria": "Sillones",
+      "descripcion": "Sillón Amapola con estructura 100% madera de pino. Respaldo envolvente en forma de concha con costuras verticales acolchonadas, asiento acolchonado y patas de madera para mayor resistencia.",
+      "caracteristicas": [
+        "Medidas: 63 cm diámetro x 87 cm alto",
+        "Estructura 100% madera de pino",
+        "Respaldo tipo concha con costuras verticales",
+        "Asiento acolchonado",
+        "Patas de madera"
+      ],
+      "imagenes": [
+        "imgs/sillon_amapola-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "sillon_amapola"
+    },
+    {
+      "id": "comoda_xalapa",
+      "nombre": "Cómoda Xalapa",
+      "precio": 4900,
+      "categoria": "Roperos y Cómodas",
+      "descripcion": "Cómoda Xalapa fabricada 100% en madera de pino. Sección izquierda con 2 puertas abatibles y colgadores metálicos; sección derecha con cajones apilados con jaladeras metálicas. Base con ruedas para fácil desplazamiento.",
+      "caracteristicas": [
+        "Medidas: 120 cm alto x 120 cm largo x 50 cm fondo",
+        "100% madera de pino",
+        "2 puertas con colgadores metálicos",
+        "Cajones con jaladeras metálicas",
+        "Ruedas para fácil desplazamiento"
+      ],
+      "imagenes": [
+        "imgs/comoda_xalapa-1.jpg",
+        "imgs/comoda_xalapa-2.jpg",
+        "imgs/comoda_xalapa-3.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "comoda_xalapa"
+    },
+    {
+      "id": "ropero_gala_corredizo",
+      "nombre": "Ropero Gala Corredizo",
+      "precio": 8900,
+      "categoria": "Roperos y Cómodas",
+      "descripcion": "Ropero Gala fabricado en madera de pino. Parte superior con 3 puertas abatibles; parte media con 2 puertas corredizas con paneles verticales estilo tablero para zona de colgar y puerta derecha con espejo y entrepaños; parte inferior con 2 puertas laterales y 2 cajones al centro. Disponible en varios colores.",
+      "caracteristicas": [
+        "Medidas: 2.04 m alto x 1.52 m largo x 57 cm fondo",
+        "Estructura de madera de pino",
+        "2 puertas corredizas con zona para colgar",
+        "Puerta con espejo y entrepaños",
+        "Maletero superior de 3 puertas",
+        "2 puertas inferiores y 2 cajones",
+        "Disponible en varios colores"
+      ],
+      "imagenes": [
+        "imgs/ropero_gala_corredizo-1.jpg",
+        "imgs/ropero_gala_corredizo-2.jpg",
+        "imgs/ropero_gala_corredizo-3.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "ropero_gala_corredizo"
+    },
+    {
+      "id": "sillon_mickey",
+      "nombre": "Sillón Mickey",
+      "precio": 2300,
+      "categoria": "Sillones",
+      "descripcion": "Sillón Mickey para 1 persona, de diseño acogedor. Respaldo alto y envolvente con detalles capitonados y laterales ligeramente curveados, asiento de cojín acolchonado de perfil redondeado, reposabrazos compactos ligeramente inclinados hacia afuera y patas de madera de pino para mayor resistencia.",
+      "caracteristicas": [
+        "Medidas: 63 cm ancho x 69 cm fondo x 86 cm alto",
+        "Respaldo alto capitonado",
+        "Asiento acolchonado",
+        "Reposabrazos compactos",
+        "Patas de madera de pino"
+      ],
+      "imagenes": [
+        "imgs/sillon_mickey-1.jpg",
+        "imgs/sillon_mickey-2.jpg",
+        "imgs/sillon_mickey-3.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "sillon_mickey"
+    },
+    {
+      "id": "ropero_percha",
+      "nombre": "Ropero Percha",
+      "precio": 6900,
+      "categoria": "Roperos y Cómodas",
+      "descripcion": "Ropero Percha fabricado 100% en madera de pino y MDF para un acabado elegante. Módulo izquierdo con 2 puertas abatibles con espacio para colgar y 4 cajones; módulo derecho con puerta de espejo completo, entrepaños y 1 cajón. Terminado en poliuretano de gran calidad.",
+      "caracteristicas": [
+        "Medidas: 180 cm alto x 118 cm largo x 50 cm fondo",
+        "Madera de pino y MDF",
+        "2 puertas abatibles con zona para colgar",
+        "Puerta con espejo de cuerpo completo y entrepaños",
+        "5 cajones",
+        "Acabado en poliuretano"
+      ],
+      "imagenes": [
+        "imgs/ropero_percha-1.jpg",
+        "imgs/ropero_percha-2.jpg",
+        "imgs/ropero_percha-3.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "ropero_percha"
+    },
+    {
+      "id": "sala_karla",
+      "nombre": "Sala Karla",
+      "precio": 13900,
+      "categoria": "Salas",
+      "descripcion": "Sala Karla conformada por 3 piezas (sofá, loveseat e individual), acolchonadas para máxima comodidad en el uso diario. Reposabrazos acolchonados e incluye 6 cojines.",
+      "caracteristicas": [
+        "Individual: 90 cm largo x 84 cm fondo x 74 cm alto",
+        "Loveseat: 1.35 m largo x 84 cm fondo x 74 cm alto",
+        "Sofá: 1.90 m largo x 84 cm fondo x 74 cm alto",
+        "Reposabrazos acolchonados",
+        "Incluye 6 cojines",
+        "Patas cromadas"
+      ],
+      "imagenes": [
+        "imgs/sala_karla-1.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "sala_karla"
+    },
+    {
+      "id": "sala_rosario",
+      "nombre": "Sala Rosario",
+      "precio": 10900,
+      "categoria": "Salas",
+      "descripcion": "Sala Rosario de estilo clásico, conformada por 3 piezas (sofá, loveseat e individual). Tapizado en tela color vino combinada con tapiz rayado en tonos dorados, brazos redondeados y asientos acolchonados para máxima comodidad en el uso diario. Incluye cojines decorativos a juego.",
+      "caracteristicas": [
+        "Juego de 3 piezas: sofá, loveseat e individual",
+        "Tela color vino con tapiz rayado dorado",
+        "Brazos redondeados",
+        "Asientos acolchonados",
+        "Cojines decorativos incluidos"
+      ],
+      "imagenes": [
+        "imgs/sala_rosario-1.jpg",
+        "imgs/sala_rosario-2.jpg",
+        "imgs/sala_rosario-3.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "sala_rosario"
+    },
+    {
+      "id": "sofacama_oslo",
+      "nombre": "Sofacama Oslo Base Madera",
+      "precio": 6900,
+      "categoria": "Sofacamas",
+      "descripcion": "Sofacama Oslo con superficie acolchonada y acabado capitonado en respaldo y asiento, sin reposabrazos laterales. Base fabricada 100% en madera de pino para mayor resistencia. Disponible en varios colores.",
+      "caracteristicas": [
+        "Medidas: 1.80 m largo (acostado) x 1.25 m fondo x 1.0 m alto",
+        "Se convierte en cama",
+        "Acabado capitonado",
+        "Base 100% madera de pino",
+        "Disponible en varios colores"
+      ],
+      "imagenes": [
+        "imgs/sofacama_oslo-1.jpg",
+        "imgs/sofacama_oslo-2.jpg",
+        "imgs/sofacama_oslo-3.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "sofacama_oslo"
+    },
+    {
+      "id": "sofacama_portavasos",
+      "nombre": "Sofacama Módulo Portavasos",
+      "precio": 7900,
+      "categoria": "Sofacamas",
+      "descripcion": "Sofacama acolchonado con acabado capitonado. Su zona media abatible revela un módulo portavasos ideal para 2 personas. Respaldo y asiento acolchonados para brindar la mayor comodidad posible.",
+      "caracteristicas": [
+        "Medidas: 1.80 m largo (acostado) x 1.25 m fondo x 1.0 m alto",
+        "Se convierte en cama",
+        "Módulo central abatible con portavasos para 2",
+        "Acabado capitonado",
+        "Base de madera"
+      ],
+      "imagenes": [
+        "imgs/sofacama_portavasos-1.jpg",
+        "imgs/sofacama_portavasos-2.jpg",
+        "imgs/sofacama_portavasos-3.jpg",
+        "imgs/sofacama_portavasos-4.jpg"
+      ],
+      "destacado": false,
+      "visible": true,
+      "sku": "sofacama_portavasos"
     }
   ]
 }

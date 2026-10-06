@@ -153,12 +153,12 @@ async function init(){
 
     const mainImg = document.getElementById('mainImg');
     mainImg.innerHTML = p.imagenes.map((src,i)=>
-      `<img src="${src}" alt="${p.nombre}" class="${i===0?'act':'ina'}" onerror="this.src='imgs/placeholder.jpg'"/>`
+      `<img src="${src}" alt="${p.nombre}" class="${i===0?'act':'ina'}" onerror="this.src='imgs/placeholder.svg'"/>`
     ).join('');
     const thumbs = document.getElementById('thumbs');
     if(p.imagenes.length>1){
       thumbs.innerHTML = p.imagenes.map((src,i)=>
-        `<div class="thumb${i===0?' on':''}" onclick="setImg(${i})"><img src="${src}" alt="${p.nombre}" onerror="this.src='imgs/placeholder.jpg'"/></div>`
+        `<div class="thumb${i===0?' on':''}" onclick="setImg(${i})"><img src="${src}" alt="${p.nombre}" onerror="this.src='imgs/placeholder.svg'"/></div>`
       ).join('');
     }
 
@@ -181,7 +181,7 @@ async function init(){
     if(rel.length){
       document.getElementById('relGrid').innerHTML = rel.map(r=>`
         <div class="rel-card" onclick="window.location.href='producto.html?id=${r.id}'">
-          <img src="${r.imagenes[0]||'imgs/placeholder.jpg'}" alt="${r.nombre}" onerror="this.src='imgs/placeholder.jpg'"/>
+          <img src="${r.imagenes[0]||'imgs/placeholder.svg'}" alt="${r.nombre}" onerror="this.src='imgs/placeholder.svg'"/>
           <div class="rel-info"><div class="nm">${r.nombre}</div><div class="pr">$${fmtPrecio(r.precio)}</div></div>
         </div>`).join('');
     } else {

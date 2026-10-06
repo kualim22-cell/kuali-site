@@ -228,7 +228,7 @@ footer strong{color:#fff}
 <a class="waf" href="https://wa.me/525566540690?text=Hola%2C%20me%20interesa%20un%20producto%20de%20Kuali%20Muebles" target="_blank">💬</a>
 
 <script>
-const WA = '525564367354';
+const WA = '525566540690';
 
 // ============================================================
 // FUENTE DE DATOS
@@ -246,6 +246,8 @@ let busqueda = '';
 const DEPTOS = [
   {cat:'', em:'🏠', nm:'Todos'},
   {cat:'Salas', em:'🛋️', nm:'Salas'},
+  {cat:'Sillones', em:'💺', nm:'Sillones'},
+  {cat:'Sofacamas', em:'🛋️', nm:'Sofacamas'},
   {cat:'Roperos y Cómodas', em:'🚪', nm:'Roperos'},
   {cat:'Tocadores', em:'💄', nm:'Tocadores'},
   {cat:'Vitrinas y Alacenas', em:'🪟', nm:'Vitrinas'},
@@ -283,7 +285,7 @@ function card(p){
   const imgs = p.imagenes || [];
   const multi = imgs.length > 1;
   const imgHtml = imgs.map((s,i)=>
-    `<img src="${s}" alt="${p.nombre}" class="${i===0?'act':'ina'}" loading="lazy" onerror="this.src='imgs/placeholder.jpg'"/>`
+    `<img src="${s}" alt="${p.nombre}" class="${i===0?'act':'ina'}" loading="lazy" onerror="this.src='imgs/placeholder.svg'"/>`
   ).join('');
   const dots = multi ? `<div class="dots">${imgs.map((_,i)=>`<button class="dot${i===0?' on':''}" onclick="irImg('${p.id}',${i},event)"></button>`).join('')}</div>` : '';
   const nav = multi ? `<button class="pnav prev" onclick="navImg('${p.id}',-1,event)">‹</button><button class="pnav next" onclick="navImg('${p.id}',1,event)">›</button>` : '';
